@@ -1,16 +1,12 @@
-body {
-  background: pink !important;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600&family=Source+Sans+3:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap');
 
 body {
   max-width: 900px;
   margin: 0 auto;
   padding: 35px 28px 60px;
   color: #26343f;
-  background: #ffffff;
-  font-family: "Crimson Pro", Georgia, serif;
+  background: #f8f7f3;
+  font-family: "Source Serif 4", Georgia, serif;
   font-size: 17px;
   line-height: 1.55;
 }
@@ -26,6 +22,7 @@ header h1 {
   color: #17384d;
   font-size: 25px;
   font-weight: 500;
+  line-height: 1.1;
 }
 
 nav {
@@ -97,6 +94,14 @@ h3 {
   font-weight: 500;
 }
 
+h4 {
+  margin-top: 30px;
+  color: #17384d;
+  font-family: "Source Sans 3", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 p {
   margin: 0 0 17px;
 }
@@ -112,15 +117,33 @@ a {
 
 .arctic-banner {
   width: 100%;
-  height: 190px;
+  height: 175px;
   object-fit: cover;
+  object-position: center center;
   display: block;
   margin: 32px 0 30px;
+}
+
+ul {
+  padding-left: 22px;
+}
+
+li {
+  margin-bottom: 15px;
 }
 
 @media (max-width: 650px) {
   body {
     padding: 25px 20px 45px;
+    font-size: 17px;
+  }
+
+  header h1 {
+    font-size: 27px;
+  }
+
+  nav a {
+    margin-right: 15px;
   }
 
   .about-layout {
@@ -130,13 +153,22 @@ a {
   .headshot {
     width: 135px;
     height: 165px;
+    margin-bottom: 22px;
   }
 
   .profile-links {
     margin-bottom: 28px;
   }
 
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
   .arctic-banner {
-    height: 150px;
+    height: 145px;
   }
 }
