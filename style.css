@@ -1,3 +1,7 @@
+body {
+  background: pink !important;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600&family=Source+Sans+3:wght@400;500;600&display=swap');
 
 body {
