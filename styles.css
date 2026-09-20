@@ -175,3 +175,12 @@ li {
     height: auto;
   }
 }
+
+.site-footer {
+  margin-top: 45px;
+  padding-top: 14px;
+  border-top: 1px solid #d7dfe4;
+  color: #68757d;
+  font-family: "Source Sans 3", Arial, sans-serif;
+  font-size: 13px;
+}
