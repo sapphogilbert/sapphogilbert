@@ -159,6 +159,11 @@ a {
   display: block;
 }
 
+.teaching-photo img,
+.press-photo img {
+  object-position: 50% 65%;
+}
+
 .page-photo figcaption {
   margin-top: 8px;
   color: #68757d;
