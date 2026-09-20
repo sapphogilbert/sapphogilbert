@@ -127,6 +127,25 @@ a {
   margin: 32px 0 30px;
 }
 
+.about-photo {
+  width: 100%;
+  margin: 32px 0 30px;
+}
+
+.about-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-photo figcaption {
+  margin-top: 8px;
+  color: #68757d;
+  font-family: "Source Sans 3", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
 .page-photo {
   width: 100%;
   margin: 45px 0 0;
@@ -202,6 +221,10 @@ li {
   }
 
   .arctic-banner {
+    height: auto;
+  }
+
+  .about-photo img {
     height: auto;
   }
 
