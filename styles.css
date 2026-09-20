@@ -159,9 +159,12 @@ a {
   display: block;
 }
 
-.teaching-photo img,
-.press-photo img {
+.teaching-photo img {
   object-position: 50% 65%;
+}
+
+.press-photo img {
+  object-position: 50% 75%;
 }
 
 .page-photo figcaption {
